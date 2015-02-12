@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title></title>
-</head>
-<body>
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div id="one">
+    <ul>
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="sign up.html">Sign Up</a></li>
+        <li><a href="result.html">Results</a></li>
+        <li><a href="Favorites.html">Favorites</a></li>
+        <li><a href="detail.html">Details</a></li>
+    </ul>
+</div>
+
+
+        <div class="two">
+            <div id="login">
+                <form id="loginForm">
+                    <label> User Name: </label>
+                    <input type="text" name="username" id="user" class= "masterTooltip" title="Please Enter User Name"
+                           autofocus placeholder="User Name" required>
+                    <br>
+                    <label>Password:</label>
+                    <input type="password" name="password" id="pass" class= "masterTooltip" title="Please Enter Password" autofocus placeholder="Password" required>
+                </form>
+                <button name="signinButton" id="signinButton">Sign in</button>
+
+            </div>
 </body>
 </html>
