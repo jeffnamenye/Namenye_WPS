@@ -3,9 +3,25 @@
 
 #one ul li{
     display: inline;
-    padding: 2%;
-     margin-left: 1%;
+    padding: 1%;
+    margin-left: 6%;
 }
+
+#two {
+    margin: 2%;
+    padding: 2%;
+}
+#three{
+    text-align: center;
+    margin: 3%;
+    padding: 3%;
+}
+.reg{
+    text-align: center;
+    margin: 3%;
+}
+
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -15,7 +31,7 @@
  */
 
 html {
-    font-family: sans-serif; /* 1 */
+    font-family: Georgia; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -26,7 +42,7 @@ html {
 
 body {
     margin: 0;
-    background-color: #8C8C8C
+    background-color: #CBCCCC
 }
 
 /* HTML5 display definitions
@@ -192,6 +208,7 @@ sub {
 
 img {
     border: 0;
+
 }
 
 /**
@@ -453,5 +470,6 @@ body {
     font-size: 100%;
 }
 a img, :link img, :visited img {
-    border: 0;
+    border: 1em;
+
 }

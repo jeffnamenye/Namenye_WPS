@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -23,6 +23,7 @@
 
         <div id="one">
             <ul>
+                <li>Home Traders</li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="login.html">Login</a> </li>
                 <li><a href="result.html">Results</a></li>
@@ -30,40 +31,53 @@
                 <li><a href="detail.html">Details</a></li>
             </ul>
         </div>
+            <div class="row">
+               <div class="reg">
 
-            <div class="reg">
-
-                <form id="myform" class="group" action="#" method="POST">
-                    <h1>Please fill out to register</h1>
-                    First Name<span>*</span> <br/>
-                    <input type="text" name="firstname" id="first" class= "masterTooltip" title="Please enter Your first name" autofocus placeholder="First Name" required>
-                    <br>
-                    Last Name<span>*</span> <br/>
-                    <input type="text" name="lastname" id="last" class= "masterTooltip" title="Please enter Your last name" autofocus placeholder="Last Name" required>
-                    <br/>
-                    User Name<span>*</span> <br/>
-                    <input type="text" name="username"id="username" class= "masterTooltip" title="Please enter Your user name"  autofocus placeholder="User Name" required>
-                    <br>
-                    Email Address<span>*</span> <br/>
-                    <input type="text" name="email" id="email" class= "masterTooltip" title="Please enter Your Email" autofocus placeholder="Email Address" required>
-                    <br/>
-                    Confirm Email<span>*</span> <br/>
-                    <input type="text" name="confirmemail" id="confirmemail" class= "masterTooltip" title="Please Reenter your Email" autofocus placeholder="Confirm Email" required>
-                    <br>
-                    Password<span>*</span> <br/>
-                    <input type="text" name="password" id="password" class= "masterTooltip"  title="Please enter Your Password" autofocus placeholder="Password" required>
-                    <br/>
-                    Confirm Password<span>*</span> <br/>
-                    <input type="text" name="confirmpassword" id="confirmpassword" class= "masterTooltip" title="Please reenter Password" autofocus placeholder="Confirm Password" required>
-
-                </form>
-                <input type="checkbox" name="terms" value="terms">I agree to the terms of the website
+                   <div class="col-sm-6">
 
 
-                <button id="register">Submit</button>
+                       <form id="myform" class="group" action="#" method="POST">
+                           <h1>Please fill out to register</h1>
+                           First Name<span>*</span> <br/>
+                           <input type="text" name="firstname" id="first" class= "masterTooltip" title="Please enter Your first name" autofocus placeholder="First Name" required>
+                           <br>
+                           Last Name<span>*</span> <br/>
+                           <input type="text" name="lastname" id="last" class= "masterTooltip" title="Please enter Your last name" autofocus placeholder="Last Name" required>
+                           <br/>
+                           User Name<span>*</span> <br/>
+                           <input type="text" name="username"id="username" class= "masterTooltip" title="Please enter Your user name"  autofocus placeholder="User Name" required>
+                           <br>
+                           Email Address<span>*</span> <br/>
+                           <input type="text" name="email" id="email" class= "masterTooltip" title="Please enter Your Email" autofocus placeholder="Email Address" required>
+                           <br/>
+                           Confirm Email<span>*</span> <br/>
+                           <input type="text" name="confirmemail" id="confirmemail" class= "masterTooltip" title="Please Reenter your Email" autofocus placeholder="Confirm Email" required>
+                           <br>
+                           Password<span>*</span> <br/>
+                           <input type="text" name="password" id="password" class= "masterTooltip"  title="Please enter Your Password" autofocus placeholder="Password" required>
+                           <br/>
+                           Confirm Password<span>*</span> <br/>
+                           <input type="text" name="confirmpassword" id="confirmpassword" class= "masterTooltip" title="Please reenter Password" autofocus placeholder="Confirm Password" required>
+
+                       </form>
+                       <input type="checkbox" name="terms" value="terms">I agree to the terms of the website
+
+
+                       <button onclick="window.location.href='detail.html'">Join </button>
+
+                  </div>
+                  <div class="col-sm-6">
+                      <img src="img/Castle.jpg"class="img-responsive" alt="img" align="middle" width="600" height="400"> <h3>Castle in England</h3>
+
+                  </div>
+
+
+               </div>
             </div>
 
 
 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
