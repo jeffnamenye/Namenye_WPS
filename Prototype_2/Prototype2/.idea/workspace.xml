@@ -7,11 +7,11 @@
     <file path="/index.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424533890422" ignored="false" />
     <file path="/style.css" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424615729243" ignored="false" />
     <file path="/Favorites.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424614141041" ignored="false" />
-    <file path="/login.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424039712208" ignored="false" />
-    <file path="/result.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424620572173" ignored="false" />
+    <file path="/login.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424635710798" ignored="false" />
+    <file path="/result.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424636037549" ignored="false" />
     <file path="/detail.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424354672726" ignored="false" />
     <file path="/sign_up.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1423746747507" ignored="false" />
-    <file path="/sign up.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424620102499" ignored="false" />
+    <file path="/sign up.html" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424635912223" ignored="false" />
     <file path="/normalize.css" changelist="f4976f1b-af98-4f19-ae9c-3150401ce858" time="1424534324239" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +35,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="139" selection-start="926" selection-end="926" vertical-scroll-proportion="-13.75">
+            <state line="49" column="119" selection-start="1585" selection-end="1585" vertical-scroll-proportion="-8.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="result.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="25" selection-start="586" selection-end="702" vertical-scroll-proportion="-6.75">
+            <state line="23" column="109" selection-start="939" selection-end="939" vertical-scroll-proportion="0.5502392">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="124" selection-start="660" selection-end="660" vertical-scroll-proportion="-11.875">
+            <state line="23" column="22" selection-start="530" selection-end="875" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="Favorites.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Favorites.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="124" selection-start="664" selection-end="664" vertical-scroll-proportion="-5.625">
+            <state line="64" column="11" selection-start="4323" selection-end="4323" vertical-scroll-proportion="-12.375">
               <folding />
             </state>
           </provider>
@@ -80,16 +80,16 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="124" selection-start="659" selection-end="659" vertical-scroll-proportion="-9.875">
+            <state line="13" column="105" selection-start="447" selection-end="447" vertical-scroll-proportion="8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sign up.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sign up.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sign up.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="505" selection-end="505" vertical-scroll-proportion="0.23923445">
+            <state line="40" column="184" selection-start="1315" selection-end="1315" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="97" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+            <state line="16" column="105" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,13 +119,13 @@
         <option value="$PROJECT_DIR$/css/bootstrap-theme.css" />
         <option value="$PROJECT_DIR$/../../Prototype_3/css/foundation.css" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/result.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/detail.html" />
-        <option value="$PROJECT_DIR$/Favorites.html" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/Favorites.html" />
         <option value="$PROJECT_DIR$/sign up.html" />
+        <option value="$PROJECT_DIR$/result.html" />
       </list>
     </option>
   </component>
@@ -366,51 +366,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="97" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="586" selection-end="702" vertical-scroll-proportion="-6.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="139" selection-start="926" selection-end="926" vertical-scroll-proportion="-13.75">
+        <state line="49" column="119" selection-start="1585" selection-end="1585" vertical-scroll-proportion="-8.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detail.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="124" selection-start="660" selection-end="660" vertical-scroll-proportion="-11.875">
+        <state line="16" column="105" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Favorites.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="124" selection-start="664" selection-end="664" vertical-scroll-proportion="-5.625">
+        <state line="64" column="11" selection-start="4323" selection-end="4323" vertical-scroll-proportion="-12.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="124" selection-start="659" selection-end="659" vertical-scroll-proportion="-9.875">
+        <state line="13" column="105" selection-start="447" selection-end="447" vertical-scroll-proportion="8.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sign up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="505" selection-end="505" vertical-scroll-proportion="0.23923445">
+        <state line="40" column="184" selection-start="1315" selection-end="1315" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="22" selection-start="530" selection-end="875" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="109" selection-start="939" selection-end="939" vertical-scroll-proportion="0.5502392">
           <folding />
         </state>
       </provider>
