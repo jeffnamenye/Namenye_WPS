@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="one">
+    <ul>
+        <li><a href="index.html"><img src="img/logo.jpg" class="img-responsive" alt="img" height="155" width="150"></a></li>
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="login.html">Login</a> </li>
+        <li><a href="result.html">Results</a></li>
+        <li><a href="Favorites.html">Favorites</a></li>
+
+    </ul>
+    <h1>Begin your adventure</h1>
+</div>
+<div class="large-12">
+    <div class="panel">
+        <form>
+            <div class="row">
+                <div class="large-6 medium-6 columns">
+                    <label>Price range</label>
+                    <input type="text" placeholder="Price" />
+                </div>
+                <div class="large-6 medium-6 columns">
+                    <label>Number of Rooms</label>
+                    <input type="text" placeholder="rooms" />
+                </div>
+                <div class="row">
+                    <div class="large-6 medium-6 columns">
+                    <label>City</label>
+                    <input type="text" placeholder="City" />
+                </div>
+                    <div class="large-2 medium-2 columns">
+                        <label>Country</label>
+                        <select>
+                            <option value="Country">Country</option>
+                            <option value="Spain">Spain</option>
+                            <option value="England">England</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="United States">United States</option>
+                        </select>
+                    </div>
+                    <div class="large-4 medium-4 columns">
+                        <label>Things to do</label>
+                        <select>
+                            <option value="Museums">Museums</option>
+                            <option value="Beaches">Beaches</option>
+                            <option value="Trails/Parks">Trails/Parks</option>
+                            <option value="Night Life">Night Life</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-4 medium-4 columns">
+                    <label>Travel date</label>
+                    <input type="text" placeholder="Travel" />
+                </div>
+                <div class="large-4 medium-4 columns">
+                    <label>Return date</label>
+                    <input type="text" placeholder="Return" />
+                </div>
+                <div class="large-4 medium-4 columns">
+                    <div class="row collapse">
+                        <label>Number traveling</label>
+                        <div class="small-9 columns">
+                            <input type="text" placeholder="Members" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button onclick="window.location.href='sign up.html'">Join Now</button>
+        </form>
+
+    </div>
+</div>
+
+        <script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>
