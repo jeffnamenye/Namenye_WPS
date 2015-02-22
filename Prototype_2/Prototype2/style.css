@@ -3,7 +3,7 @@
 
 #one ul li{
     display: inline;
-    padding: 1%;
+    padding: 2%;
     margin-left: 6%;
 }
 h1{
@@ -19,7 +19,6 @@ h1{
     padding: 3%;
 }
 .reg{
-    background-color:#704E3A ;
     text-align: center;
     margin: .2em;
 }
@@ -31,7 +30,7 @@ h1{
        padding: .5em;
 }
 .panel img{
-    display: inline;
+    display: inline-block;
 }
 .panel img{
 
@@ -40,8 +39,12 @@ h1{
 }
 
 .panel img:hover{
-    transform: scale(2.5);
-    box-shadow:1px 1px 1.5px;
+    transform: scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+    box-shadow:.25em .25em 1em;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -65,6 +68,40 @@ html {
 body {
     margin: 0;
     background-color: #CBCCCC
+}
+button{
+    background-color: #704E3A;
+    box-shadow: .25em .25em .5em;
+}
+.ads img:hover{
+    margin: .5em;
+    transform: scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+    box-shadow:.25em .25em 1em;
+}
+
+h3{
+    text-align: center;
+}
+
+/*============= my video settings================*/
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
 
 
