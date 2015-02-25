@@ -1,94 +1,77 @@
 
 
 
-#one ul li{
-    display: inline;
-    padding: 2%;
-    margin-left: 6%;
+#one ul li {
+    display:inline;
+    margin-left:6%;
+    padding:2%;
 }
-h1{
-    text-align: center;
-}
+
 #two {
-    margin: 2%;
-    padding: 2%;
-}
-#three{
-    text-align: center;
-    margin: 3%;
-    padding: 3%;
-}
-.reg{
-    text-align: center;
-    margin: .2em;
-
+    margin:2%;
+    padding:2%;
 }
 
-  /*******photos style*******/
+#three {
+    text-align:center;
+    margin:3%;
+    padding:3%;
+}
+
+.reg {
+    text-align:center;
+    margin:.2em;
+}
+
 .panel {
-       background-color: #CCBAAE;
-       margin: .5em;
-       padding: .5em;
-}
-.panel img{
-    display: inline-block;
-}
-.panel img{
-
-    margin: .5em;
-    transition: all .5s ease;
+    background-color:#CCBAAE;
+    margin:.5em;
+    padding:.5em;
 }
 
-.panel img:hover{
-    transform: scale(1.5);
-    -ms-transform:scale(1.5); /* IE 9 */
-    -moz-transform:scale(1.5); /* Firefox */
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -o-transform:scale(1.5); /* Opera */
+.panel img {
+    display:inline-block;
+    transition:all .5s ease;
+    margin:.5em;
+}
+
+.panel img:hover {
+    transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    -o-transform:scale(1.5);
     box-shadow:.25em .25em 1em;
 }
-
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
 
 html {
-    font-family: Georgia; /* 1 */
-    -ms-text-size-adjust: 100%; /* 2 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+    font-family:Georgia;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    font-size:1em;
 }
-
-/**
- * Remove default margin.
- */
 
 body {
-    margin: 0;
-    background-color: #CBCCCC
+    background-color:#CBCCCC;
+    font-size:100%;
+    margin:0;
 }
-button{
-    background-color: #704E3A;
-    box-shadow: .25em .25em .5em;
+
+button {
+    background-color:#704E3A;
+    box-shadow:.25em .25em .5em;
 }
-.ads img:hover{
-    margin: .5em;
-    transform: scale(1.5);
-    -ms-transform:scale(1.5); /* IE 9 */
-    -moz-transform:scale(1.5); /* Firefox */
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -o-transform:scale(1.5); /* Opera */
+
+.ads img:hover {
+    transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    -o-transform:scale(1.5);
     box-shadow:.25em .25em 1em;
+    margin:.5em;
 }
 
-h3{
-    text-align: center;
-}
-
-/*============= my video settings================*/
 .video-container {
     position:relative;
     padding-bottom:56.25%;
@@ -97,7 +80,7 @@ h3{
     overflow:hidden;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
+.video-container iframe,.video-container object,.video-container embed {
     position:absolute;
     top:0;
     left:0;
@@ -105,25 +88,15 @@ h3{
     height:100%;
 }
 
+html,body {
+    margin:0;
+    padding:0;
+}
 
-/*Poor Man's reset
-==============================================================================*/
-/*
-      /*
-Poor Man's Reset
-CSSresetr.com
-*/
-html, body {
-    padding: 0;
-    margin: 0;
+a img,:link img,:visited img {
+    border:1em;
 }
-html {
-    font-size: 1em;
-}
-body {
-    font-size: 100%;
-}
-a img, :link img, :visited img {
-    border: 1em;
 
+h1,h3 {
+    text-align:center;
 }
