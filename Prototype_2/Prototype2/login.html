@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Latest compiled and minified JavaScript -->
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div id="one">
+    <ul>
+        <li>Home Traders</li>
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="result.html">Results</a></li>
+        <li><a href="Favorites.html">Favorites</a></li>
+        <li><a href="detail.html">Details</a></li>
+    </ul>
+</div>
+
+        <h1>Log In</h1>
+        <div class="row">
+            <div class="large-6 medium-6 columns">
+                <img src="img/England.jpg"  class="img-responsive" alt="img"  />
+            </div>
+            <div class="large-6 medium-6 columns">
+                    <div id="login">
+                        <form id="loginForm">
+                            <label> User Name: </label>
+                            <input type="text" name="username" id="user" class= "masterTooltip" title="Please Enter User Name"
+                                   autofocus placeholder="User Name" required>
+                            <br>
+                            <label>Password:</label>
+                            <input type="password" name="password" id="pass" class= "masterTooltip" title="Please Enter Password" autofocus placeholder="Password" required>
+                        </form>
+                        <button onclick="window.location.href='detail.html'">Log in </button>
+
+                    </div>
+                </div>
+
+        </div>
+
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>
