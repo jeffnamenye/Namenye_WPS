@@ -25,6 +25,7 @@ h1{
 }
 
   /*******photos style*******/
+
 .panel {
        background-color: #CCBAAE;
        margin: .5em;
@@ -40,7 +41,7 @@ h1{
 }
 
 .panel img:hover{
-    transform: scale(2.5);
+    transform: scale(1.5);
     box-shadow:1px 1px 1.5px;
 }
 
