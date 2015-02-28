@@ -6,6 +6,20 @@
     padding: 2%;
     margin-left: 6%;
 }
+
+a:link{
+    color: #8b1a3d;
+}
+a:visited{
+    color: #157dff;
+}
+a:hover{
+    color: #801cff;
+}
+a:active{
+    color: blue;
+}
+
 h1{
     text-align: center;
 }
